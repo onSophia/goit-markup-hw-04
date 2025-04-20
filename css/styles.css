@@ -88,12 +88,17 @@ ul {
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg.jpg);
-    max-width: 1440px;
+    max-height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.container-beg {
+    width: 1158px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
 
 .beginning-head {
     font-size: 56px;
@@ -152,6 +157,7 @@ ul {
 .description-ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .description-li {
@@ -208,6 +214,7 @@ ul {
 .team-ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .team-li {
@@ -245,6 +252,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px;
+    list-style-type: none;
 }
 
 .team-contacts-li {
@@ -295,6 +303,7 @@ ul {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 
 .portfolio-li {
@@ -402,6 +411,7 @@ ul {
 .footer-ul {
     display: flex;
     gap: 16px;
+    list-style-type: none;
 }
 
 .footer-li {
@@ -458,6 +468,7 @@ ul {
 .menu-info {
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 
 .menu-info-pynkt {
@@ -467,4 +478,5 @@ ul {
 .address-ul {
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
