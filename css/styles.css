@@ -319,6 +319,10 @@ ul {
     transform: translateY(0%);
 }
 
+.portfolio-li:hover .portfolio-paragraf {
+    transform: translateY(0%);
+}
+
 .portfolio-img-div {
     position: relative;
     overflow: hidden;
